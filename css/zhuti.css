@@ -1,0 +1,458 @@
+.ClsPageBodyBox {
+    position: relative;
+    margin-top: 44px;
+}
+
+/* 轮播模块 */
+.ClsLevel1By {
+    padding-top: 20px;
+    width: 1030px;
+    height: 320px;
+    /* border: 1px solid #000; */
+}
+
+.ClsN_Carousel {
+    overflow: hidden;
+    float: left;
+    position: relative;
+    width: 720px;
+    height: 300px;
+}
+
+.ClsN_Carousel-1 {
+    position: absolute;
+    width: 5040px;
+    height: 300px;
+}
+
+.ClsN_Carousel-1-li {
+    overflow: hidden;
+    float: left;
+    position: relative;
+    width: 720px;
+    height: 300px;
+}
+
+.ClsN_Carousel-1 .ClsN_Carousel-1-li:nth-last-child(1) {
+    margin-right: -9999px;
+}
+
+.ClsN_Carousel-1-li-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 720px;
+    height: 300px;
+    transition: 1s;
+}
+
+.leftbtn {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: 5;
+    transform: translate(0, -50%);
+    width: 28px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: none;
+}
+
+.rightbtn {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    z-index: 5;
+    transform: translate(0, -50%);
+    width: 28px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: none;
+}
+
+.leftbtn-jiantou {
+    position: absolute;
+    top: 50%;
+    left: 67%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+    width: 20px;
+    height: 20px;
+    border-top: 1px solid #fff;
+    border-left: 1px solid #fff;
+}
+
+.rightbtn-jiantou {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+    width: 20px;
+    height: 20px;
+    border-bottom: 1px solid #fff;
+    border-right: 1px solid #fff;
+}
+
+.bottomtiao {
+    position: absolute;
+    left: 20px;
+    bottom: 10px;
+    width: 205px;
+    height: 2px;
+}
+
+.bottomtiao-li {
+    float: left;
+    width: 30px;
+    height: 2px;
+    margin-right: 4px;
+    background-color: #ccc;
+    /* transition: 2s; */
+}
+
+.bottomtiao-li-div {
+    float: left;
+    width: 0px;
+    height: 2px;
+    background-color: blue;
+    transition: 1.9s;
+}
+
+/* 轮播模块结束 */
+/* 轮播右侧模块 */
+.ClsN_Carousel-right {
+    overflow: hidden;
+    float: left;
+    margin-left: 10px;
+    width: 300px;
+    height: 300px;
+}
+
+.ClsN_Carousel-right-li {
+    overflow: hidden;
+    float: left;
+    position: relative;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    width: 145px;
+    height: 145px;
+}
+
+.ClsN_Carousel-right li:nth-child(2) {
+    margin-right: 0px;
+}
+
+.ClsN_Carousel-right li:nth-child(4) {
+    margin-right: 0px;
+}
+
+.ClsN_Carousel-right-li-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    transition: .5s;
+}
+
+.ClsN_Carousel-right-li-div {
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50%, 0);
+    width: 100%;
+    height: 15px;
+    line-height: 15px;
+    color: red;
+    font-size: 12px;
+    text-align: center;
+    z-index: 2;
+    transition: .5s;
+}
+
+.ClsN_Carousel-right-li-div2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    opacity: 0;
+    transition: .5s;
+}
+
+/* 轮播右侧模块结束 */
+/* 左侧小电梯模块 */
+.ClsOnTheLeftSideOfTheElevatorFather {
+    position: absolute;
+    width: 1030px;
+    margin: 0 auto;
+    height: 20px;
+    top: 0;
+}
+
+.ClsOnTheLeftSideOfTheElevator {
+    position: absolute;
+    left: -123px;
+    top: 64px;
+    width: 103px;
+}
+
+.ClsOnTheLeftSideOfTheElevator-logo {
+    width: 103px;
+    height: 71px;
+    background: url(../img/3.png) no-repeat 26px 10px;
+    background-size: 70px 38px;
+}
+
+.ClsOnTheLeftSideOfTheElevator-DashedLine {
+    margin-left: 74px;
+    width: 20px;
+    height: 1px;
+    background-color: #dddddd;
+}
+
+.ClsOnTheLeftSideOfTheElevator-sub {
+    margin-left: 45px;
+    width: 58px;
+}
+
+.ClsOnTheLeftSideOfTheElevator-sub-li {
+    position: relative;
+    margin-bottom: 13px;
+    width: 58px;
+    height: 27px;
+    color: #000;
+    line-height: 27px;
+    text-align: center;
+}
+
+.ClsOnTheLeftSideOfTheElevatorsublihover {
+    position: relative;
+    margin-bottom: 13px;
+    width: 58px;
+    height: 27px;
+    background-color: #4285f4;
+    color: #fff;
+    font-weight: 600;
+    line-height: 27px;
+    text-align: center;
+}
+
+.ClsOnTheLeftSideOfTheElevator-sub-li-ul {
+    overflow: hidden;
+    /* margin-bottom: 18px; */
+    margin-left: -45px;
+    width: 100px;
+    height: 0px;
+    transition: .5s;
+    color: #ddd;
+}
+
+.ClsOnTheLeftSideOfTheElevator-sub-li-ul li:nth-child(odd) {
+    float: left;
+    margin-right: 37px;
+}
+
+.ClsOnTheLeftSideOfTheElevator-sub-li-ul li {
+    margin-bottom: 10px;
+}
+
+.ClsOnTheLeftSideOfTheElevator-sub-li-kaiguan {
+    position: absolute;
+    top: 7px;
+    left: -24px;
+    width: 15px;
+    height: 15px;
+    background: url(../img/jinglingtu.png) no-repeat -1px -55px;
+    background-size: 344px 1416px;
+    transform: rotate(0deg);
+    transition: .5s;
+}
+
+.ClsOnTheLeftSideOfTheElevator-ALongLine {
+    margin-left: 32px;
+    width: 62px;
+    height: 1px;
+    background-color: #ddd;
+}
+
+.ClsOnTheLeftSideOfTheElevator-serch {
+    margin-left: 32px;
+    width: 62px;
+    height: 46px;
+    background: url(../img/20.png);
+}
+
+.ClsOnTheLeftSideOfTheElevator-baodao {
+    margin-bottom: 10px;
+    width: 94px;
+    height: 28px;
+    background: url(../img/21.png);
+}
+
+/* 左侧小电梯模块结束 */
+/* 下方主体内容 */
+.lowerBody {
+    overflow: hidden;
+    margin-top: 40px;
+    width: 1030px;
+}
+
+.lowerBodyLeft {
+    float: left;
+    width: 720px;
+}
+
+.lowerBodyLeftSon {
+    margin-bottom: 15px;
+    width: 705px;
+}
+
+.lowerBodyLeftSon-title {
+    padding-left: 10px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 22px;
+    color: #000;
+}
+
+.lowerBodyLeftSon-sub {
+    width: 705px;
+}
+
+.lowerBodyLeftSon-sub-li {
+    padding: 15px 0;
+    padding-left: 10px;
+    width: 705px;
+    height: 174px;
+    transition: .6s;
+}
+
+.lowerBodyLeftSon-sub-li-img {
+    overflow: hidden;
+    float: left;
+    position: relative;
+    width: 216px;
+    height: 144px;
+    background-size: 216px 144px;
+}
+
+.lowerBodyLeftSon-sub-li-img-sub {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 216px;
+    height: 144px;
+    transition: .6s;
+}
+
+.lowerBodyLeftSon-sub-li-right {
+    float: left;
+    padding-left: 20px;
+    width: 476px;
+    height: 144px;
+}
+
+.lowerBodyLeftSon-sub-li-rightTitle {
+    height: 38px;
+    line-height: 38px;
+    font-size: 18px;
+    color: #000;
+}
+
+.lowerBodyLeftSon-sub-li-rightSub {
+    width: 469px;
+    height: 83px;
+    line-height: 38px;
+    font-size: 12px;
+    color: #787878;
+    transition: .5s;
+}
+
+.lowerBodyLeftSon-sub-li-rightBtm {
+    width: 469px;
+    height: 22px;
+    font-size: 12px;
+}
+
+.lowerBodyLeftSon-sub-li-rightBtm-1 {
+    float: left;
+    height: 22px;
+    color: #bbafc6;
+    line-height: 22px;
+}
+
+.lowerBodyLeftSon-sub-li-rightBtm-2 {
+    float: left;
+    margin-left: 10px;
+    height: 22px;
+    color: #4285f4;
+    line-height: 22px;
+}
+
+.lowerBodyLeftSon-sub-li-rightBtm-3 {
+    float: left;
+    margin-left: 6px;
+    height: 22px;
+    line-height: 22px;
+}
+
+.lowerBodyLeftSon-sub-li-rightBtm-4 {
+    float: left;
+    margin-left: 6px;
+    height: 22px;
+    color: #bbafc6;
+    line-height: 22px;
+}
+
+.lowerBodyLeftSon-sub-li-rightBtm-5 {
+    float: right;
+    margin-right: 16px;
+    height: 22px;
+    color: #bbafc6;
+    line-height: 22px;
+}
+
+.lowerBodyLeftSonSanheng {
+    margin-bottom: 10px;
+    width: 708px;
+    height: 238px;
+}
+
+.lowerBodyLeftSonSanhengLi {
+    float: left;
+    padding: 10px;
+    width: 236px;
+    height: 238px;
+    transition: .6s;
+}
+
+.lowerBodyLeftSonSanhengLi1 {
+    overflow: hidden;
+    position: relative;
+    width: 216px;
+    height: 144px;
+}
+
+.lowerBodyLeftSonSanhengLi1img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    transition: .6s;
+}
+
+.lowerBodyLeftSonSanhengLi2 {
+    padding: 10px 15px;
+    width: 216px;
+    height: 74px;
+    line-height: 18px;
+    font-size: 12px;
+    color: #787878;
+    background-color: #edf1f4;
+}
+
+/* 下方主体内容结束 */

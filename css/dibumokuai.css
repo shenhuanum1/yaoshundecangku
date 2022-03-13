@@ -1,0 +1,250 @@
+.btmserchduo {
+    margin-left: 300px;
+    width: 140px;
+    height: 36px;
+    border: 1px solid #4285f4;
+    line-height: 36px;
+    font-size: 16px;
+    text-align: center;
+    color: #4285f4;
+}
+
+.domfoot {
+    margin-top: 40px;
+    background-color: #2d3237;
+}
+
+.domfootsub {}
+
+.domfootsubTop {
+    width: 1030px;
+    height: 206px;
+    border-bottom: 1px solid #3b424a;
+}
+
+.domfootsubTopDetails {
+    float: left;
+    width: 180px;
+    height: 207px;
+}
+
+.domfootsubTopDetailsTitle {
+    line-height: 54px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.domfootsubTopDetailsSubLeft {
+    float: left;
+    width: 70px;
+}
+
+.domfootsubTopDetailsSubLeftContent {
+    line-height: 32px;
+    font-size: 12px;
+    color: #bcbebf;
+}
+
+.domfootsubTopDetailsSubRight {
+    float: left;
+    width: 70px;
+    margin-left: 40px;
+}
+
+.domfootsubTopHot {
+    float: left;
+    margin-left: 96px;
+    width: 66px;
+    height: 207px;
+}
+
+.domfootsubTopHotTitle {
+    line-height: 54px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.domfootsubTopHotSubContent {
+    line-height: 32px;
+    font-size: 12px;
+    color: #bcbebf;
+}
+
+.domfootsubTopFrend {
+    float: left;
+    margin-left: 105px;
+    width: 360px;
+    height: 207px;
+}
+
+.domfootsubTopFrendTitle {
+    line-height: 54px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.domfootsubTopFrendSubDd {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 18px;
+    width: 68px;
+    height: 32px;
+}
+
+.domfootsubTopFrendSubDdSub {
+    float: left;
+    width: 68px;
+    height: 32px;
+}
+
+.domfootsubTopCode {
+    float: right;
+    width: 100px;
+    height: 207px;
+}
+
+.domfootsubTopCodeTitle {
+    line-height: 54px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.domfootsubTopCodeSub {
+    width: 100px;
+    height: 100px;
+}
+
+.domfootsubTopCodeSubImg {
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+
+.domfootsubTopCodeDetails {
+    line-height: 37px;
+    font-size: 12px;
+    color: #bcbebf;
+    text-align: center;
+}
+
+.domfootsubBtm {
+    position: relative;
+    width: 1030px;
+    height: 80px;
+}
+
+.domfootsubBtmLogo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 70px;
+    height: 80px;
+    background: url(../img/38.png);
+    z-index: 5;
+}
+
+.domfootsubBtmP1 {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    height: 50px;
+    line-height: 50px;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+}
+
+.domfootsubBtmP2 {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    height: 13px;
+    line-height: 13px;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+}
+
+.domfootsubBtmtutu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 99px;
+    height: 51px;
+    background: url(../img/39.png);
+    z-index: 5;
+}
+
+.rightElevator {
+    position: fixed;
+    right: 10px;
+    bottom: 60px;
+    width: 40px;
+    border: 1px solid #787878;
+}
+
+.rightElevatorSub {
+    width: 38px;
+}
+
+.rightElevatorSubItem {
+    position: relative;
+    width: 38px;
+    height: 39px;
+    border-bottom: 1px solid #ccc;
+    background-color: #fff;
+}
+
+.pn1 {
+    background: url(../img/jinglingtu.png) no-repeat -22px -870px;
+    background-size: 492px 2024px;
+    background-color: #fff;
+}
+
+.pn1hover {
+    background-color: #4285f4;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #fff;
+}
+
+.pn2 {
+    background: url(../img/jinglingtu.png) no-repeat -22px -950px;
+    background-size: 492px 2024px;
+    background-color: #fff;
+}
+
+.rightElevatorSubItemDiv {
+    position: absolute;
+    left: -257px;
+    width: 260px;
+    height: 106px;
+    background: url(../img/41.png) no-repeat;
+    background-size: 245px 106px;
+    display: none;
+}
+
+.pn2hover {
+    background: url(../img/40.png) no-repeat;
+    background-size: 38px 38px;
+    background-color: #fff;
+}
+
+.pn3 {
+    background: url(../img/jinglingtu.png) no-repeat -22px -1029px;
+    background-size: 492px 2024px;
+    background-color: #fff;
+}
+
+.pn4 {
+    background: url(../img/jinglingtu.png) no-repeat -22px -1108px;
+    background-size: 492px 2024px;
+    background-color: #fff;
+}
+
+.rightElevatorSub .rightElevatorSubItem:nth-last-child(1) {
+    border: 0;
+}
